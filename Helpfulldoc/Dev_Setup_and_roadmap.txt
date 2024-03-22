@@ -1,0 +1,16 @@
+Pour developer le package j'utilise Rstudio :
+ -installer le packages devtools.
+ -ouvrire le projet Picross.rproj avec Rstudio
+ -utilisé la commande load_all() pour charger le package (Picross)
+ -utilisé la fonction nonogram() pour lancer en local l'application
+ -pour modifier l'application : ouvrire le script main.R et modifier la fonction nonogram()
+
+A faire:
+ CODE:
+    -j'ai trouver un trés bon scripte qui génère une grille clickable, il est simple et on peut l'utilisé comme base en le modifiant comme suit :
+        -adapter la structure pour rendre la grille modulable et qu'elle puisse se réactualiser on_clic
+        -introduire un render pour les images que l'on souhaite faire jouer
+ SETUP:
+    -tester 2 piste pour le deployement du site :
+        -implémenter l'application sur un document quarto pour la mise en page et l'hébergement en statique directment sur une ghitube page
+        -Sinon, hébergé via shyniapp.io
